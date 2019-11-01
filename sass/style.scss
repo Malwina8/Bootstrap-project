@@ -86,3 +86,14 @@ body {
     height: 100%;
     }
 }
+
+/*BOXES-CONTACT*/
+.contact {
+    background-color: $color-light;
+    margin-bottom: 0;
+    h3 {
+        font-family: $main-font;
+        font-size: 33px;
+        letter-spacing: 1.5px;
+    }
+}
