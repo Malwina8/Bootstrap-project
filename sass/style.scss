@@ -97,3 +97,15 @@ body {
         letter-spacing: 1.5px;
     }
 }
+
+/*FOOTER*/
+footer {
+    background-color: #b2bec3;
+    color: $color-light;
+}
+
+@media (max-width: 767px) {
+    .carousel-caption h1 {
+        font-size: 70px;
+    }
+}
