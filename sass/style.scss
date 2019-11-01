@@ -73,6 +73,23 @@ body {
     object-fit:cover;
 }
 
+/* GALLERY-BLOG*/
+.blog {
+    h3 {
+        font-family: $header-font;
+        color: $color-light;
+        font-size: 48px;
+        padding-bottom: 10px;
+    }
+    .card-body {
+        display: flex;
+        align-items: center;
+    }
+    .card-image {
+        width: 100%;
+    }
+}
+
 /*CARDS-OFFER*/
 .offer {
     .col-md-4 {
