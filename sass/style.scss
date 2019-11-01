@@ -1,0 +1,53 @@
+/*Variables*/
+$color-light: #eff2f5;
+$main-font: 'Dosis', sans-serif;;
+$header-font: 'Playfair Display', serif;
+$h-common: 100vh;
+
+/* GLOBAL*/
+body {
+    font-family: $main-font;
+}
+
+.container {
+    max-width: 1140px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* CAROUSEL */
+.carousel-inner {
+    height: $h-common;
+}
+
+.carousel-item {
+    height: $h-common;
+    img {
+    height: 100%;
+    object-fit: cover;
+    }
+}
+
+.carousel-caption {
+    right: auto;
+    bottom: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+     flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+    h1 {
+        font-family: $header-font;
+        font-size: 110px;
+        padding: 35px;
+    }
+    p {
+        font-size: 25px;
+    }
+    .btn {
+        padding: 12px 18px;
+    }
+}
